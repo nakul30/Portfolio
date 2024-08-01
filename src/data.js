@@ -13,7 +13,7 @@ export const projects = [
     description:
       "This is a full-stack application that helps you find roommates in your area. It uses React for the frontend and Firebase for the backend.",
     image: "./project-3.gif",
-    link: "",
+    link: "https://github.com/nakul30/roommatefinder",
   },
   {
     title: "Coursetube",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Currently Showing my personal information and projects. It uses React for the frontend. Connect with me in just next step",
     image: "./portfolio.png",
-    link: "https://github.com/nakul30/nakulprtf",
+    link: "https://github.com/nakul30/portfolio",
   },
 ];
 
