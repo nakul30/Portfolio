@@ -79,6 +79,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
+
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
@@ -89,6 +90,8 @@ export default function Contact() {
           <p className="mb-4">
             Open to Suggestions !! 
           </p>
+          <input type="hidden" name="form-name" value="contact" />
+
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
@@ -130,7 +133,7 @@ export default function Contact() {
           <button
             type="submit"
             disabled="true"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg disabled:opacity-50 "
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg "
           >
             Submit
           </button>
