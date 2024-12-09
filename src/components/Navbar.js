@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import leetcode from "../assets/leetcode.png";
 import React from "react";
 
 export default function Navbar() {
@@ -30,6 +31,8 @@ export default function Navbar() {
           <a href="/Nakul_Garg_2024.pdf" className="mr-5 hover:text-white">
             Resume
           </a>
+          <a href="https://leetcode.com/u/nakul_30/" className="mr-5 hover:text-white"> <img className="" src={leetcode} alt="" /></a>
+          <a href="https://geeksforgeeks.org/user/nakulgarg1424/" className="mr-5 hover:text-white">GFG</a>
         </nav>
         <a
           href="#contact"
